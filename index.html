@@ -1,25 +1,41 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to KakaoTalk</title>
-</head>
-<body>
-    <div id="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-<!--            TODO: wifi icon-->
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-<!--            TODO: rock circle icon-->
-            <span>11%</span>
-<!--            TODO: Battery icon-->
-<!--            TODO: lightening icon-->
-        </div>
+  </head>
+  <body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
     </div>
-</body>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>11%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+    <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number</p>
+  </header>
+
+  <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+  ></script>
+  </body>
 </html>
+
+<!--
+BEM: Block Element Modifier => 모든 요소의 중요 속성에 클래스로 설정해서 하는 방법 __ 이용 (class_="" 만 이용)
+
+heroicons.dev => 아이콘 사이트
+fontawesome.com => 폰트 사이트 => 아이콘도 많음
+-->
