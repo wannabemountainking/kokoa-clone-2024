@@ -7,25 +7,33 @@
     <title>Welcome to KakaoTalk</title>
   </head>
   <body>
-  <div class="status-bar">
-    <div class="status-bar__column">
-      <span>No Service</span>
-      <i class="fas fa-wifi"></i>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
-    <div class="status-bar__column">
-      <span>18:43</span>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+      <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number</p>
+    </header>
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" required />
+      <input type="password" minlength="10" maxlength="15" placeholder="Password" required />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <div>
+      <button type="submit">Sign Up</button>
     </div>
-    <div class="status-bar__column">
-      <span>11%</span>
-      <i class="fas fa-battery-full fa-lg"></i>
-      <i class="fas fa-bolt"></i>
-    </div>
-  </div>
-  <header class="welcome-header">
-    <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
-    <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number</p>
-  </header>
-
   <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
