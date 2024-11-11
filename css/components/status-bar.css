@@ -1,3 +1,9 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
 div.status-bar {
     display: flex;
     justify-content: center;

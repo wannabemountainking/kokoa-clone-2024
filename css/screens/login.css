@@ -22,14 +22,14 @@
   margin: 0 5%;
 }
 
-.login-form input {
+.login-form__id-input, .login-form__pwd-input, .login-form__btn {
   padding: 3% 0;
   border: none;
   font-size: 100%;
   margin-bottom: 6%;
 }
 
-.login-form input:not([type="submit"]) {
+.login-form__id-input, .login-form__pwd-input {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
