@@ -30,12 +30,12 @@
 }
 
 .login-form__id-input, .login-form__pwd-input {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: var(--main-border);
   transition: border-color 0.3s ease-in-out;
 }
 
 .login-form::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--main-gray);
 }
 
 .login-form__id-input:focus, .login-form__pwd-input:focus {
