@@ -50,6 +50,7 @@
 
 .open-post {
   display: flex;
+  justify-content: space-between;
 }
 
 .open-post__title {
@@ -90,3 +91,4 @@
 .open-post__member-status {
   color: #ffb0e0;
 }
+
