@@ -81,7 +81,7 @@
 }
 
 .open-post__photo img {
-  width: 120px;
+  width:120px;
   height: 120px;
   border-radius: 10px;
 }
@@ -101,4 +101,25 @@
 
 .open-post__heart-count span {
   margin-left: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  70% {
+    color: darkred;
+    transform: scale(5);
+  }
+
+  100% {
+    color: white;
+    trasform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
