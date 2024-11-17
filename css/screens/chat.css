@@ -190,3 +190,36 @@
 .reply:focus-within {
     transform: translateY(80px);
 }
+
+@keyframes smileBig {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        color: hotpink;
+        transform: scale(4.0) translateY(-10px);
+    }
+    100% {
+        color: var(--strong-gray);
+        transform: scale(1);
+    }
+}
+
+.fa-smile-wink:hover {
+    animation: smileBig 3s forwards;
+}
+
+@keyframes typeSlowly {
+    from {
+        clip-path:inset(0 100% 0 0 );
+    }
+    to {
+        clip-path: inset(0 0 0 0 );
+    }
+}
+
+span.message__bubble {
+    overflow: hidden;
+    animation: typeSlowly 2s forwards;
+}

@@ -6,6 +6,21 @@
     align-items: center;
 }
 
+@keyframes magnifyingIcon {
+    0% {
+        width: 80px;
+        height: 80px;
+    }
+    50% {
+        width: 90px;
+        height: 90px;
+    }
+    100% {
+        width: 80px;
+        height: 80px;
+    }
+}
+
 .user-component__avatar {
     width: 70px;
     height: 70px;
@@ -16,6 +31,10 @@
 .user-component__avatar--xl {
     width: 80px;
     height: 80px;
+}
+
+.user-component__avatar--xl:focus {
+    animation: magnifyingIcon 1s linear forwards;
 }
 
 .user-component__avatar--sm {
@@ -50,3 +69,5 @@
     margin-bottom: 10px;
     display: block;
 }
+
+
