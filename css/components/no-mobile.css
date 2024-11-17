@@ -11,7 +11,7 @@
     top: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1401px) {
     #no-mobile {
         display: none;
     }

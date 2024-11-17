@@ -3,6 +3,34 @@
     height: 500vh;
 }
 
+@media screen and (max-width: 430px) {
+    .small-size {
+        background-image: url("https://img.freepik.com/free-vector/background-design-with-planet-stars_1308-38521.jpg?t=st=1731847028~exp=1731850628~hmac=104599cd39a8dec847575ffe79c17e0798fc1a9ae4f09d40292d6ba44979dd9f&w=1480");
+        opacity: 0.7;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 1000px) {
+    .medium-size {
+        background-image: url("https://img.freepik.com/premium-vector/game-that-has-name-game-it_670382-369505.jpg?w=1800");
+        opacity: 0.7;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .large-size {
+        background-image: url("https://img.freepik.com/free-vector/background-design-with-planet-stars_1308-69641.jpg?t=st=1731847223~exp=1731850823~hmac=129134d01570c8cf2638347f6a0238bc11dbff997417c4e87f7a3a10c8052f6d&w=1480");
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    #no-mobile {
+        display: none;
+    }
+}
+
+
 #chat-screen .alt-header,
 #chat-screen .status-bar {
     top: 0;
